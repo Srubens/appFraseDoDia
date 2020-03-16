@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native'
 const styles = StyleSheet.create({
 	container:{
 		flex: 1,
-		backgroundColor:"#e0ebeb",
+		backgroundColor:"#fff",
 		justifyContent: "center",
 		alignItems: "center"
 	},
@@ -15,6 +15,9 @@ const styles = StyleSheet.create({
 	boxBtn:{
 		marginTop: 40,
 		width: 200,
+	},
+	alert:{
+		textAlign: "center"
 	}
 })
 
